@@ -102,3 +102,50 @@ nav .profile-link a {
     border: 1px solid white;
     width: fit-content;
 }
+
+/* Blogs */
+.blogs-main {
+    display: grid;
+}
+.blogs-news-container {
+    background-color: #e6e9ed;
+    display: grid;
+    padding: 50px 40px;
+    align-items: center;
+}
+.blogs-main-new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+.blogs-main-new h3 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+.blogs-news-img-container {
+    grid-column: 1;
+}
+.blogs-news-img-container img {
+    width: 100%;
+}
+.blogs-news-info-container {
+    grid-column: 2;
+    align-self: center;
+}
+.blogs-news-info-container h2 {
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+.blogs-news-container p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 14px;
+}
+.blogs-button {
+    margin-top: 14px;
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 12px;
+    border: 1px solid #47cfac;
+}
