@@ -5,3 +5,4 @@ In this project, the knowledge obtained from __CSS__ and semantic __HTML5__ is b
 1. Project Setup
 2. HTML header architecture
 3. Styles in the header
+4. Adding icons
