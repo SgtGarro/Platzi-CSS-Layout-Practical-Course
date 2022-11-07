@@ -7,17 +7,17 @@ html {
     font-size: 62.5%;
     font-family: monospace, sans-serif;
 }
-body {
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+.home-body {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
-}
-a {
-    text-decoration: none;
-    display: inline;
-    color: black;
 }
 /* Header */
 header {
@@ -74,7 +74,7 @@ nav .profile-link a {
     height: 100%;
 }
 .container {
-    width: 80%;
+    width: 85%;
     min-width: 320px;
     max-width: 1200px;
     margin: 0 auto;
@@ -126,7 +126,7 @@ nav .profile-link a {
     grid-column: 1;
 }
 .blogs-news-img-container img {
-    width: 100%;
+    width: 90%;
 }
 .blogs-news-info-container {
     grid-column: 2;
@@ -148,4 +148,14 @@ nav .profile-link a {
     font-weight: 600;
     padding: 12px;
     border: 1px solid #47cfac;
+}
+.blogs-posts-container {
+    padding: 0 50px 40px;
+}
+.blogs-posts-container h3 {
+    border-bottom: 1px solid #ccd2da;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
 }

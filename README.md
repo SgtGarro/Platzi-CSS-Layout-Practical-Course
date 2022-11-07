@@ -11,3 +11,4 @@ In this project, the knowledge obtained from __CSS__ and semantic __HTML5__ is b
 7. Blog Page
 8. Class Management
 9. Blog Styles
+10. Adding image
