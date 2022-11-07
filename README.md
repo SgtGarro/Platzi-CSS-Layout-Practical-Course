@@ -8,3 +8,4 @@ In this project, the knowledge obtained from __CSS__ and semantic __HTML5__ is b
 4. Adding icons
 5. Adding images to the header
 6. __Challenge:__ Make the main section
+7. Blog Page
