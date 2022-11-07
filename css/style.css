@@ -3,8 +3,10 @@
     padding: 0;
     margin: 0;
 }
-body {
+html {
     font-size: 62.5%;
+}
+body {
     position: fixed;
     top: 0;
     right: 0;
@@ -23,7 +25,6 @@ header {
     display: grid;
     grid-template-rows: 1fr 2fr;
 }
-
 header .header-icons-container {
     width: 100%;
     display: grid;
@@ -40,4 +41,25 @@ header .header-icons-container .icons {
 }
 header .header-icons-container .icons a {
     color: white;
+}
+nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    height: 90px;
+    font-size: 1.6rem;
+}
+nav .nav-logo-container {
+    margin-left: 50px;
+}
+nav .profile-link {
+    justify-self: end;
+    margin-right: 50px;
+}
+nav .nav-logo-container img {
+    width: 220px;
+    margin-top: 10px;
+}
+nav .profile-link a {
+    border-bottom: 1px solid black;
 }
