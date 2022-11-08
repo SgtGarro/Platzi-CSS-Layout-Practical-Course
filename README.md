@@ -14,3 +14,4 @@ In this project, the knowledge obtained from __CSS__ and semantic __HTML5__ is b
 10. Adding image
 11. Working the post section
 12. Contact section
+13. Profile section

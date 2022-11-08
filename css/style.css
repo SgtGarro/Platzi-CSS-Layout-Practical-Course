@@ -76,7 +76,7 @@ nav .profile-link a {
 .container {
     width: 85%;
     min-width: 320px;
-    max-width: 1200px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 .home-main .main-container {
@@ -234,4 +234,61 @@ nav .profile-link a {
     font-size: 1rem;
     font-weight: 600;
     margin-top: 5px;
+}
+/* Perfil */
+.profile-main-container {
+    background-color: #e6e9ed;
+    padding: 55px 0;
+}
+.profile-main-container .container {
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    column-gap: 30px;
+    align-items: center;
+}
+.profile-img-container img {
+    width: 100%;
+}
+.profile-info-container h2 {
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+.profile-info-container p {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 14px;
+}
+/* Projects */
+.projects-main-container {
+    padding: 40px 0;
+}
+.projects-main-container h3 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-align: center;
+}
+.projects-main-container .projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    margin-top: 40px;
+}
+.projects .project-card h4 {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.projects .project-card p {
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+/* Footer */
+footer {
+    background-color: rgb(34, 34, 34);
+    padding: 25px 0;
+    border-top: 25px solid #47cfac;
+}
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
 }
